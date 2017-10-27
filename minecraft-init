@@ -15,7 +15,7 @@
 ### END INIT INFO
 
 #Settings
-SERVICE='minecraft_server.jar'
+SERVICE='forge-*-installer.jar'
 OPTIONS='nogui'
 USERNAME='ec2-user'
 WORLD='world'
