@@ -7,4 +7,4 @@ sudo mv minecraft-server-setup-aws/minecraft.init /etc/init.d/minecraft
 sudo chmod +x /etc/init.d/minecraft
 sudo chkconfig --add minecraft
 sudo chkconfig minecraft on
-sudo service restart minecraft
+sudo service minecraft restart
