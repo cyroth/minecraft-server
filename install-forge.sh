@@ -7,4 +7,7 @@ sudo mv minecraft-server-setup-aws/minecraft.init /etc/init.d/minecraft
 sudo chmod +x /etc/init.d/minecraft
 sudo chkconfig --add minecraft
 sudo chkconfig minecraft on
-sudo service minecraft restart
+echo "Server installed!"
+echo "upload your mods or world and run:"
+echo "sudo service minecraft restart"
+echo "or sudo vim /etc/init.d/minecraft and select standard version"
