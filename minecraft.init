@@ -13,9 +13,9 @@
 # Short-Description:    Minecraft server
 # Description:    Starts the minecraft server
 ### END INIT INFO
-
+FORGE_VER=`ls /home/ec2-user/*universal*`
 #Settings
-SERVICE='*universal*'
+SERVICE='$FORGE_VER'
 OPTIONS='nogui'
 USERNAME='ec2-user'
 WORLD='world'
