@@ -14,7 +14,7 @@
 # Description:    Starts the minecraft server
 ### END INIT INFO
 FORGE_VER=`ls /home/ec2-user/*universal*`
-STANDARD_VER=`ls /home/ec2-user/*universal*`
+STANDARD_VER=`ls /home/ec2-user/minecraft_server*`
 #Settings
 #SERVICE=$STANDARD_VER
 SERVICE=$FORGE_VER
