@@ -1,6 +1,8 @@
 # minecraft-server
 quick setup for kids minecraft servers
 
+can use aws-user-data, just pull in desired minecraft version
+
 sudo yum install git -y
 
 scp the forge installer required and run 
